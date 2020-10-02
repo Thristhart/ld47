@@ -1,0 +1,41 @@
+{
+  "name": "ld47",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thristhart/ld47.git"
+  },
+  "author": "thristhart <tom@shea.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thristhart/ld47/issues"
+  },
+  "homepage": "https://github.com/Thristhart/ld47#readme",
+  "dependencies": {
+    "howler": "^2.2.0",
+    "typescript": "^4.0.3",
+    "victor": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.1",
+    "@types/victor": "^1.1.0",
+    "copy-webpack-plugin": "^6.2.0",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "fork-ts-checker-webpack-plugin": "^5.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.1.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.4",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
